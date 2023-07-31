@@ -5,10 +5,10 @@ void maxmin(int *prob1, int *prob2, int *prob3, int *max, int *min);
 /* Find a max & min probabilities */
 int main() {
     int x, y, z;
-    if(scanf("%d %d %d", &x, &y, &z) =! 3 || getchar() != '\n'){
-        printf("n/a\");
+    if (scanf("%d %d %d", &x, &y, &z) != 3 || getchar() != '\n') {
+        printf("n/a\n");
+        return 0;
     }
-    
 
     int max, min;
 
